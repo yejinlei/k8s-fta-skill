@@ -86,6 +86,19 @@ graph TD
     SS --> P
     UU --> P
     ZZ --> P
+
+    classDef startEnd fill:#4CAF50,color:white,stroke:#45a049,stroke-width:2px;
+    classDef process fill:#2196F3,color:white,stroke:#1976D2,stroke-width:2px;
+    classDef decision fill:#FF9800,color:white,stroke:#F57C00,stroke-width:2px;
+    classDef success fill:#8BC34A,color:white,stroke:#7CB342,stroke-width:2px;
+    classDef error fill:#F44336,color:white,stroke:#D32F2F,stroke-width:2px;
+    classDef action fill:#9C27B0,color:white,stroke:#7B1FA2,stroke-width:2px;
+
+    class A,PP startEnd;
+    class B,D,O,P,Q,V,W,AA,BB,CC,DD,EE,FF,GG,HH,II,JJ,KK,LL,MM,NN,OO,QQ,RR,SS,TT,UU,VV,WW,XX,YY,ZZ,AAA process;
+    class C,F,H,J,L,S,T,Q,R action;
+    class Y,MM,AAA success;
+    class G,I,K,M,D error;
 ```
 
 **来源**：[learnk8s.io](https://learnk8s.io/troubleshooting-deployments)，由 Addo Zhang 翻译
